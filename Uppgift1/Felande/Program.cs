@@ -52,7 +52,7 @@ namespace Felande
             Console.WriteLine("Tryck på en knapp för att fortsätta...");
             Console.ReadKey();
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
 
     }
