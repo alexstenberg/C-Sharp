@@ -27,7 +27,7 @@ namespace Klasser
 
             while (showMenu)
             {
-                /// Skriv ut alternativ i meny.
+                /// Skriv ut alternativ i meny
                 Console.Clear();
                 Console.WriteLine("\n[1] Registrera ny person.");
                 Console.WriteLine("\n[2] Skriv ut alla personer.");
