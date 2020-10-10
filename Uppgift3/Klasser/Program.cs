@@ -38,7 +38,7 @@ namespace Klasser
                 Console.WriteLine("\n[7] Skriv ut alla registrerade bilar.");
                 Console.WriteLine("\n[8] Ta bort alla bilar ur register.");
                 Console.WriteLine("\n[9] Avsluta\n");
-
+                
                 // Switch för menyalternativ, tar emot en sträng.
                 switch (Console.ReadLine())
                 {
@@ -82,6 +82,7 @@ namespace Klasser
 
                             for (int j = 0; j < person.OwnedCars.Count; j++)
                             {
+                               
                                 Thread.Sleep(250);
                                 Car car = person.OwnedCars[j];
                                 Console.WriteLine($"\nModell: {car.carModel}" +
@@ -91,6 +92,8 @@ namespace Klasser
                                 Console.WriteLine($"\nMiltal: {car.GetCarMiles()}");
                                 car.ElectricYesNo();                       
                             }
+
+                           
                            
                         }
 
